@@ -19,6 +19,17 @@
         <item>Digha</item>
         <item>Dooars</item>
         <item>Kalimpong</item>
+        <item>Nabadwip</item>
+        <item>Durgapur</item>
+        <item>Haldia</item>
+        <item>Santiniketan</item>
+        <item>Raichak</item>
+        <item>Bakkhali</item>
+        <item>Lataguri</item>
+        <item>Bankura</item>
+        <item>Bishnupur</item>
+        <item>Coch</item>
+
     </string-array>
 
     <string-array name="Kerala">
@@ -32,6 +43,16 @@
         <item>Thiruvananthapuram</item>
         <item>Kozhikode</item>
         <item>Kannur</item>
+        <item>Poovar</item>
+        <item>Ponmudi</item>
+        <item>Palakkad</item>
+        <item>Nelliampathy</item>
+        <item>Munroe Island</item>
+        <item>Marari</item>
+        <item>Malappuram</item>
+        <item>Malampuzha</item>
+        <item>Kuttanad</item>
+        <item>Kizhunna Beach</item>
     </string-array>
 
     <string-array name="Ladakh">

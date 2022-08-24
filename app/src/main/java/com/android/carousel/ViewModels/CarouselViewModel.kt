@@ -3,12 +3,16 @@ package com.android.carousel.ViewModels
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
 import android.content.Context
+import android.text.Editable
+import android.text.TextWatcher
+import android.widget.EditText
 import com.android.carousel.DataClasses.Item
 import com.android.carousel.R
 
 class CarouselViewModel : ViewModel(){
 
     private var countLiveData= MutableLiveData<List<Item>>()
+    private var filter= MutableLiveData<String>()
 
     open fun getInitialList(context: Context):MutableLiveData<List<Item>>{
         val possibleItems = listOf(
@@ -27,27 +31,31 @@ class CarouselViewModel : ViewModel(){
     }
 
     fun getDataByIndex(context: Context, index: Int): MutableList<String> {
-        var list: MutableList<String> =
-            (context.resources.getStringArray(R.array.WestBengal).toMutableList())
-        when(index){
-             0 ->
-                list = (context.resources.getStringArray(R.array.WestBengal).toMutableList())
-             1 ->
-                list = (context.resources.getStringArray(R.array.Kerala).toMutableList())
-             2 ->
-                list = (context.resources.getStringArray(R.array.Ladakh).toMutableList())
-             3 ->
-                list = (context.resources.getStringArray(R.array.Maharashtra).toMutableList())
-             4 ->
-                list = (context.resources.getStringArray(R.array.Meghalaya).toMutableList())
-             5 ->
-                list = (context.resources.getStringArray(R.array.MadhyaPradesh).toMutableList())
-             6 ->
-                list = (context.resources.getStringArray(R.array.Punjab).toMutableList())
-             7->
-                list = (context.resources.getStringArray(R.array.TamilNadu).toMutableList())
-        }
-        return list
+        var total = listOf(context.resources.getStringArray(R.array.WestBengal).toMutableList(),
+            context.resources.getStringArray(R.array.Kerala).toMutableList(),
+            context.resources.getStringArray(R.array.Ladakh).toMutableList(),
+            context.resources.getStringArray(R.array.Maharashtra).toMutableList(),
+            context.resources.getStringArray(R.array.Meghalaya).toMutableList(),
+            context.resources.getStringArray(R.array.MadhyaPradesh).toMutableList(),
+            context.resources.getStringArray(R.array.Punjab).toMutableList(),
+            context.resources.getStringArray(R.array.TamilNadu).toMutableList(),
+        )
+        return total.get(index)
+    }
+
+    fun addFilter(search: EditText): MutableLiveData<String> {
+        search.addTextChangedListener(object : TextWatcher {
+            override fun afterTextChanged(s: Editable?) {
+                filter.value = s.toString()
+            }
+
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+            }
+
+            override fun onTextChanged(msg: CharSequence?, start: Int, before: Int, count: Int) {
+            }
+        })
+        return filter
     }
 
 }

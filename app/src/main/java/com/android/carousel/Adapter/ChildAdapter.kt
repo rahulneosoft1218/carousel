@@ -10,6 +10,7 @@ import com.android.carousel.databinding.ListChildBinding
 class ChildAdapter(private var mList: MutableList<String>) :
     RecyclerView.Adapter<ChildAdapter.ViewHolder>() {
     lateinit var binding: ListChildBinding
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         binding = ListChildBinding.inflate(LayoutInflater.from(parent.context),
             parent, false)

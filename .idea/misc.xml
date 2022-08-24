@@ -13,7 +13,11 @@
         <entry key="..\:/Projects/Carousel/app/src/main/res/layout/list_child.xml" value="0.20416666666666666" />
         <entry key="..\:/Projects/Carousel/app/src/main/res/layout/list_item.xml" value="0.1" />
         <entry key="..\:/Projects/Carousel/app/src/main/res/mipmap-anydpi-v26/ic_launcher_icon.xml" value="0.16666666666666666" />
-        <entry key="..\:/Projects/Demo/carousel/app/src/main/res/layout/activity_scrolling.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projects/Demo/carousel/app/src/main/res/drawable/default_dot.xml" value="0.20833333333333334" />
+        <entry key="..\:/Projects/Demo/carousel/app/src/main/res/drawable/rectangular_shape.xml" value="0.2037037037037037" />
+        <entry key="..\:/Projects/Demo/carousel/app/src/main/res/drawable/selected_dot.xml" value="0.20833333333333334" />
+        <entry key="..\:/Projects/Demo/carousel/app/src/main/res/drawable/tab_selector.xml" value="0.20833333333333334" />
+        <entry key="..\:/Projects/Demo/carousel/app/src/main/res/layout/activity_scrolling.xml" value="0.1" />
         <entry key="..\:/Projects/Demo/carousel/app/src/main/res/layout/list_child.xml" value="0.20416666666666666" />
         <entry key="..\:/Projects/Demo/carousel/app/src/main/res/layout/list_item.xml" value="0.20416666666666666" />
       </map>

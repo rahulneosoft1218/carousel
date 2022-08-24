@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_margin="@dimen/car_padding"
-    android:padding="@dimen/car_padding">
-
-    <ImageView
-        android:id="@+id/list_item_background"
-        android:layout_width="@dimen/carousel_image_dimen"
-        android:layout_height="@dimen/carousel_image_dimen"
-        android:layout_centerInParent="true"
-         />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/list_item_icon"
-        android:layout_width="@dimen/carousel_image_dimen"
-        android:layout_height="@dimen/carousel_image_dimen"
-        android:layout_centerInParent="true" />
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/carousel_height"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop" />
 
     <TextView
         android:id="@+id/list_item_text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/_50_dp"
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/rectangular_trans"
