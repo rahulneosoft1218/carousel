@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="_10_dp">10dp</dimen>
+    <dimen name="_15_dp">10dp</dimen>
+    <dimen name="carousel_image_dimen">150dp</dimen>
+    <dimen name="car_padding">24dp</dimen>
+    <dimen name="_4_dp">4dp</dimen>
+    <dimen name="_5_dp">5dp</dimen>
+    <dimen name="_50_dp">50dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="child_image_size">40dp</dimen>
+    <dimen name="image_title_font">20sp</dimen>
+    <dimen name="title_font">25sp</dimen>
+    <dimen name="viewpager_size">300dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="carousel_height">400dp</dimen>
+</resources>
