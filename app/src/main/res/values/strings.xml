@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Carousel</string>
+    <string name="action_settings">Settings</string>
+    <string name="west_bengal">West Bengal</string>
+    <string name="kerala">Kerala</string>
+    <string name="ladakh">Ladakh</string>
+    <string name="maharashtra">Maharashtra</string>
+    <string name="meghalaya">Meghalaya</string>
+    <string name="madhyapradesh">Madhya Pradesh</string>
+    <string name="punjab">Punjab</string>
+    <string name="tamilnadu">Tamil Nadu</string>
+    <string name="search">Search</string>
+    <string-array name="WestBengal">
+        <item>Kolkata</item>
+        <item>Darjeeling</item>
+        <item>Sundarbans</item>
+        <item>Siliguri</item>
+        <item>Mirik</item>
+        <item>Digha</item>
+        <item>Dooars</item>
+        <item>Kalimpong</item>
+    </string-array>
+
+    <string-array name="Kerala">
+        <item>Alleppey</item>
+        <item>Kochi</item>
+        <item>Thekkady</item>
+        <item>Munnar</item>
+        <item>Thrissur</item>
+        <item>Kovalam</item>
+        <item>Wayanad</item>
+        <item>Thiruvananthapuram</item>
+        <item>Kozhikode</item>
+        <item>Kannur</item>
+    </string-array>
+
+    <string-array name="Ladakh">
+        <item>Pangong Tso Lake</item>
+        <item>Thiksey Monastery</item>
+        <item>Khardung-la Pass</item>
+        <item>Markha Valley</item>
+        <item>Nubra Valley</item>
+        <item>Tso Moriri lake</item>
+        <item>Hemis National Park</item>
+        <item>Diskit Monastery</item>
+    </string-array>
+
+    <string-array name="Maharashtra">
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>Mahabaleshwar</item>
+        <item>Lonavala</item>
+        <item>Khandala</item>
+        <item>Matheran</item>
+        <item>Lavasa</item>
+        <item>Nashik</item>
+        <item>Kolhapur</item>
+    </string-array>
+
+    <string-array name="Meghalaya">
+        <item>Nohakalikai Falls</item>
+        <item>Umiam Lake</item>
+        <item>Mawlynnong Village</item>
+        <item>Living Root Bridges</item>
+        <item>Laitlum Canyon</item>
+        <item>Dawki River</item>
+        <item>Cherrapunji</item>
+        <item>Mawsynram</item>
+        <item>Elephant Falls</item>
+    </string-array>
+
+
+    <string-array name="MadhyaPradesh">
+        <item>Mandu</item>
+        <item>Khajuraho</item>
+        <item>Gwalior</item>
+        <item>Ujjain</item>
+        <item>Orchha</item>
+        <item>Pachmarhi</item>
+        <item>Sanchi</item>
+        <item>Panna</item>
+        <item>Tribal Museum</item>
+        <item>Shree Mahakaleshwar Temple</item>
+        <item>Sarafa Bazaar</item>
+    </string-array>
+
+    <string-array name="Punjab">
+        <item>Amritsar</item>
+        <item>Bathinda</item>
+        <item>Pathankot</item>
+        <item>Patiala</item>
+        <item>Mansa</item>
+        <item>Nangal</item>
+        <item>Sangrur</item>
+        <item>Faridkot</item>
+        <item>Moga</item>
+        <item>Gurdaspur</item>
+        <item>Mohali</item>
+    </string-array>
+
+    <string-array name="TamilNadu">
+        <item>Trichy</item>
+        <item>Chennai</item>
+        <item>Pondicherry</item>
+        <item>Mudumalai</item>
+        <item>Dhanushkodi</item>
+        <item>Hogenakkal</item>
+        <item>Tuticorin</item>
+        <item>Kanyakumari</item>
+        <item>Nagapattinam</item>
+        <item>Vellore</item>
+    </string-array>
+
+</resources>

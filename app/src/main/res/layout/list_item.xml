@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/car_padding"
+    android:padding="@dimen/car_padding">
+
+    <ImageView
+        android:id="@+id/list_item_background"
+        android:layout_width="@dimen/carousel_image_dimen"
+        android:layout_height="@dimen/carousel_image_dimen"
+        android:layout_centerInParent="true"
+         />
+
+    <ImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="@dimen/carousel_image_dimen"
+        android:layout_height="@dimen/carousel_image_dimen"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/list_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangular_trans"
+        android:padding="@dimen/_4_dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_font"
+        android:visibility="visible" />
+
+</RelativeLayout>
